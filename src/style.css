@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'ShadowsIntoLight';
+    src: url('./ShadowsIntoLight-Regular.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+:root {
+    background-color: #72a9b7;
+}
+
+#content {
+    text-align: center;
+}
+
+#main {
+    margin: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'ShadowsIntoLight-Regular', cursive;
+}
+
+.products {
+    display: flex;
+}
+
+.logo {
+    display: inline;
+    height: 400px;
+    width: auto;
+}
+
+img {
+    height: 400px;
+    width: auto;
+}
+
+.cookie {
+    align-items: center;
+}
+
+.button-nav {
+    background-color: #72a9b7;
+    font-weight: bolder;
+    font-size: x-large;
+    border: 0;
+    padding: 50px;
+    color: #d1991f;
+    text-shadow: -1px 1px 2px #000;
+}
+.button-nav:hover {
+    text-shadow: -1px 1px 5px #000;
+    color: #d49611dc;
+}
+.transition-fade {
+    opacity: 1;
+    transition: 500ms;
+}
+
+html.is-animating .transition-fade {
+    opacity: 0;
+}
+
+.intro {
+    margin-bottom: 2%;
+    font-family: 'ShadowsIntoLight-Regular', cursive;
+}
