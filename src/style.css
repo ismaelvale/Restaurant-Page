@@ -1,3 +1,8 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    height: auto;
+    width: auto;
+}
+
 @font-face {
     font-family: 'ShadowsIntoLight';
     src: url('./ShadowsIntoLight-Regular.ttf') format('ttf');
